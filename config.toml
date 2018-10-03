@@ -1,0 +1,16 @@
+theme = "hugo-theme-learn"
+baseURL = "http://localhost:1313/"
+languageCode = "ru-ru"
+defaultContentLanguage = "ru"
+
+title = "PACT18 - Основы информатики и криптографии"
+
+[[Languages.ru.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-check-double'></i> Оценивание"
+url = "grading"
+weight = 11
+
+[[Languages.ru.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-comments'></i> Slack"
+url = "https://cyber-tlvl.slack.com"
+weight = 16
